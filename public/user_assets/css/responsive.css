@@ -1,0 +1,73 @@
+
+/* Medium Layout: 1200px */
+
+/* @media only screen and (min-width:992px) and (max-width:1200px) {
+
+}  */
+
+/* Tablet Layout: 768px */
+
+/* @media only screen and (min-width:768px) and (max-width:991px) {
+
+}  */
+
+
+
+/* Mobile Layout: 320px */
+
+/* @media only screen and (max-width:767px) {
+
+}  */
+@media only screen and (max-width:767px) {
+  .pt-100{
+    padding-top: 50px;
+  }
+  .logo{
+    float: left;
+  }
+  .navigation{
+    float: right;
+  }
+  .banner-text h2{
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  .navigation form input{
+    height: 40px;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .navigation form input::placeholder{
+    font-size: 16px;
+  }
+  #search-btn{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  #search-btn i {
+    width: 14px;
+    height: 14px;
+  }
+  .about-title h2 {
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 10px;
+  }
+  .footer-area .webname{
+      width: 150px;
+      height: 150px;
+      transform: translate(25%);
+    }
+    .footer-area .webname .circle h2{
+      font-size: 1.3em;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px */
+
+/* @media only screen and (min-width:480px) and (max-width:767px) {
+
+}  */
